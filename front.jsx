@@ -1,4 +1,6 @@
+
 // Copyright by Mahendra Ribadiya - Founder of https://www.Heymate.in
+// Hire Our company for anykind of AI , Flask, Django, Next.js, Iot Startup or Projects
 import { useRef, useState } from 'react';
 
 export default function Home() {
