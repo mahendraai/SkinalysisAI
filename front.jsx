@@ -1,4 +1,4 @@
-
+// Copyright by Mahendra Ribadiya - Founder of https://www.Heymate.in
 import { useRef, useState } from 'react';
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
             .then(stream => {
                 videoRef.current.srcObject = stream;
             })
-            .catch(err => console.error('Error accessing webcam: ', err));
+            .catch(err => console.error('Error accessing webcam: ', err)); Copyright by Mahendra Ribadiya - Founder of https://www.Heymate.in
     };
 
     const captureImage = () => {
@@ -43,5 +43,5 @@ export default function Home() {
             <button onClick={captureImage}>Capture Image</button>
             {imageSrc && <img src={imageSrc} alt="Captured" />}
         </div>
-    );
+    );Copyright by Mahendra Ribadiya - Founder of https://www.Heymate.in
 }
