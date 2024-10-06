@@ -1,4 +1,5 @@
-# Copyright by Mahendra Ribadiya - Founder of https://www.Heymate.in
+# Copyright by Mahendra Ribadiya - Founder of https://www.Heymate.in -
+#Hire Our company for anykind of AI , Flask, Django, Next.js, Iot Startup or Projects
 from flask import Flask, request, jsonify
 import cv2
 import numpy as np
